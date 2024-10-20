@@ -14,7 +14,7 @@ const AdoptionCard = () => {
       <div className="ml-0 md:ml-10 text-left">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold text-[#003459] mb-4">
-            Adoption <img src={dogLegsIcon} alt="Dog Legs Icon" className="inline w-10 h-10" /> <br />
+            Adoption <img src={dogLegsIcon} alt="Dog Legs Icon" className="inline w-10 h-9" /> <br />
             <span className="text-xl md:text-3xl">We Need Help. So Do They.</span>
           </h1>
           <p className="text-xs text-gray-600 font-bold mb-6 max-w-md">
@@ -42,7 +42,7 @@ const AdoptionCard = () => {
         <img
           src={imageSrc}
           alt="Hand with a dog"
-          className="rounded-lg object-cover w-full md:w-[300px] h-[300px] transition-transform duration-300 ease"
+          className="rounded-lg object-cover w-full md:w-[300px] h-[300px] transition-transform duration-300 mt-[-25px] mb-[-22px]"
           style={{ transform: `rotate(${rotation}deg)` }}
           onClick={handleImageClick}
         />

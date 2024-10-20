@@ -11,7 +11,7 @@ const Card = () => {
         <img
           src={imageSrc}
           alt="girl with a dog"
-          className="rounded-lg object-cover w-[300px] h-[300px] max-w- mt-4"
+          className="rounded-lg object-cover w-[300px] h-[300px] mt-5 mb-[-22px]"
         />
       </div>
 

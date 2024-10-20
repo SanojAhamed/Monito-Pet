@@ -27,10 +27,6 @@
   background-color: rgb(233, 233, 233);
 }
 
-.subscribe-box h2 {
-  margin: 0;
-}
-
 .email-input {
   padding: 10px;
   border: none;
@@ -47,24 +43,26 @@
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
+  margin-left: -10px;
   cursor: pointer;
+  margin-top: 20px; /* Add margin to push the button down */
 }
 
 .subscribe-button:hover {
   background-color: #002244;
 }
 
-.footer-bottom {
-  padding-top: 10px;
-}
-
-.nav-social-container {
+nav-social-container {
   margin-top: 20px;
   color: black;
+  display: flex; /* Ensure flexbox is used */
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Align them vertically */
 }
 
 .nav-social-container a {
   color: black;
+  margin: 0 10px; /* Adds space between the icons */
 }
 
 .nav-social-container .fab {
@@ -97,4 +95,57 @@
 .logo {
   height: 40px;
   margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .subscribe-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-social-container {
+    justify-content: space-evenly;
+  }
+
+  .email-box {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .space-x-4 {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subscribe-box h2 {
+    font-size: 1.25rem;
+  }
+
+  .email-input {
+    padding: 8px;
+  }
+
+  .subscribe-button {
+    padding: 8px 16px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .footer-text, .space-x-4 a {
+    font-size: 12px;
+  }
 }
