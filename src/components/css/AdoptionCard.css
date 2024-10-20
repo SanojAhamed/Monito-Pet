@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  background-color: #FCEED5;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+.flex-initial {
+  flex: initial;
+}
+
+.rounded-lg {
+  border-radius: 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-5xl {
+  font-size: 2.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-gray-600 {
+  color: #4B5563;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.space-x-4 {
+  margin-right: 1rem;
+}
+
+.view-intro-btn {
+  border: 2px solid #003459;
+  color: #003459;
+  padding: 10px 20px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom {
+  border-radius: 38px;
+}
+
+.view-intro-btn i {
+  margin-left: 8px;
+}
+
+.explore-now-btn {
+  background-color: #003459;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.explore-now-btn:hover {
+  background-color: #002147;
+}

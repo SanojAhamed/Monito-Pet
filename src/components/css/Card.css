@@ -1,0 +1,30 @@
+.view-intro-btn {
+  border: 2px solid #003459;
+  color: #003459;
+  padding: 10px 20px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom {
+  border-radius: 38px;
+}
+
+.view-intro-btn i {
+  margin-left: 8px;
+}
+
+.explore-now-btn {
+  background-color: #003459;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.explore-now-btn:hover {
+  background-color: #002147;
+}

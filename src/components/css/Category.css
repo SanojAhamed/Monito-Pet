@@ -1,0 +1,54 @@
+.group-dog-image {
+  width: 700px;
+  height: 300px;
+  margin-top: 16px;
+  margin-bottom: -23px;
+}
+
+input:focus {  
+  outline: none;  
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);  
+}  
+
+.gender-filter input {
+  margin-right: 0.5rem;
+}
+
+.pets-container {
+  width: 950px;
+  overflow-y: auto;
+  margin: auto;
+  margin-right: -80px;
+}
+
+@media (max-width: 768px) {
+  .pets-container {
+    height: auto;
+    max-height: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .gender-filter,
+  .color-filter,
+  .price-filter,
+  .breed-filter {
+    flex-direction: column;
+  }
+
+  .gender-filter label,
+  .color-filter label,
+  .price-filter label,
+  .breed-filter label {
+    justify-content: flex-start;
+  }
+
+  .pets-section {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}

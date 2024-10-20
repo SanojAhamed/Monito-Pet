@@ -1,0 +1,49 @@
+.selles-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.selles-title {
+  font-size: 1.5rem;
+  color: #003366;
+}
+
+.logos-line {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: nowrap;
+}
+
+.logo-image {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #595959;
+}
+
+.small-black-text {
+  font-size: 1rem;
+  color: #1a1a1a;
+}
+
+.bold-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
